@@ -1,0 +1,50 @@
+.header {
+    position: relative;
+    box-sizing: border-box;
+    background-color: #AB2A19;
+}
+
+.header-content {
+    width: 80%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 20px 50px
+}
+
+.header-icon {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.header-content img {
+    width: 50px;
+}
+
+.header-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.8rem;
+    margin-left: 50px;
+}
+
+.header-buttons {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.header-buttons button {
+    padding: 5px 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    background-color: #ED6B5A;
+}
